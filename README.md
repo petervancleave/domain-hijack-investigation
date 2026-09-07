@@ -38,6 +38,8 @@ The domain uses HTTP 301 redirects in this order:
 | **2** | `301 Moved Permanently` | `https://5280eatstogo.com/`     | Appends canonical trailing slash.                                               |
 | **3** | `301 Moved Permanently` | `https://www.5280eatstogo.com/` | Enforces `www` sub-domain; executes HTTP `Location` redirect to `detiktri.com`. |
 | **4** | `200 OK`                | `https://detiktri.com/`         | External threat infrastructure renders payload.                                 |
+
+
 The presence of the `301 Moved Permanently` status code confirmed server-level or DNS-level redirection rather than a client-side browser extension or local adware issue.
 
 **Evidence:** 
