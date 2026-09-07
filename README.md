@@ -18,7 +18,7 @@ The restaurant serves breakfast and American-Mexican food. It has active listing
 I discovered the issue while checking the domain. The site no longer showed restaurant content. Instead, it redirected to a gambling site.
 
 *Pictured below is the Google Business Profile of 5280 Eats at the time of the investigation.*
-![](attachment/8f1d053397b797861abcc6b74e922c03.png)
+<img width="1575" height="724" alt="firefox_CQ2XzTBM9p" src="https://github.com/user-attachments/assets/9c9126b9-3dc7-4b24-b672-2004a8f35f16" />
 
 ---
 
@@ -45,24 +45,33 @@ The presence of the `301 Moved Permanently` status code confirmed server-level o
 Firefox Developer Tools Network Tab Results -
 
 ![](attachment/982016aa48e865116503fc2e8fb31fcf.png)
+<img width="1920" height="991" alt="firefox_fzEnzFnn8A" src="https://github.com/user-attachments/assets/5b7846bd-1ab9-4fc7-b9ce-f3faf381728c" />
 
 ![](attachment/a0dcf6e39906be1f8567f65096970919.png)
+<img width="1920" height="991" alt="firefox_USictiyg1p" src="https://github.com/user-attachments/assets/dd4fa1a8-ab59-4f6e-b637-8028a4b22f3e" />
 
 ![](attachment/77000e85f4bda949f41b94da297c2fdf.png)
+<img width="1920" height="991" alt="firefox_XiCbt74ai3" src="https://github.com/user-attachments/assets/22521e6f-19f3-40e3-8e78-2a45f77e27e2" />
 
 WhereGoes Redirect Trace -
 
-![](attachment/e41eff905cc703042d0de056f9ebaee0.pdf)
+Can be found in the evidence folder or here:
+
+![Trace Results](evidence/Trace_Results.pdf)
 
 The final site (detiktri.com) is an Indonesian online gambling site that uses the brand name DETIK365.
 
 *Pictured below is the detiktri.com site.*
-![](attachment/9f53aeca32ade1a78a3f424fe90a1d3b.png)
+
+<img width="1906" height="964" alt="firefox_sTc05HkY6S" src="https://github.com/user-attachments/assets/c9705302-410d-4838-8de5-729ee0c4368d" />
+
 
 Note: A search of the URL on VirusTotal returned a community score of 0/91, but the redirect is concerning for patrons of the establishment.
-![](attachment/ad7f93799654d5cab27e12c73b03bce2.png)
 
-![](attachment/f913f651ec93babe7086c8dc2f21cb2d.png)
+<img width="1898" height="869" alt="firefox_HMH5f1RD7n" src="https://github.com/user-attachments/assets/f86ed754-5164-416a-a956-71cbc3c223e6" />
+
+<img width="1901" height="869" alt="firefox_o6rTIQvzN6" src="https://github.com/user-attachments/assets/cfb334e8-726d-4b09-b2b6-7dd53348b24c" />
+
 
 ---
 
@@ -110,9 +119,9 @@ Current nameservers:  
 |**Current (Sep 2026)**|Full redirect active|301 → [www.5280eatstogo.com](http://www.5280eatstogo.com/) → [https://detiktri.com](https://detiktri.com/) (Indonesian online gambling / DETIK365 site).|Live HTTP headers + page content|
 Screenshots of A Records:
 
-![](attachment/3569d3ab0834e9cd8cdde76a3e1df459.png)
+<img width="1899" height="871" alt="firefox_l9lTh3hnce" src="https://github.com/user-attachments/assets/8a5999ca-8762-4330-b18f-4b709d519953" />
 
-![](attachment/d6bf2c7dde99b260f3d8d220c8132f21.png)
+<img width="1892" height="865" alt="firefox_DOAyeZ4RVT" src="https://github.com/user-attachments/assets/c1e8a8dd-074a-4791-b873-b8a9915b49cb" />
 
 ---
 
